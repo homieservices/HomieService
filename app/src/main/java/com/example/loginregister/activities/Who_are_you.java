@@ -30,7 +30,7 @@ public class Who_are_you extends AppCompatActivity {
         servicecard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(Who_are_you.this,SP_Registration.class);
+                Intent i = new Intent(Who_are_you.this,CreateAccount.class);
                 startActivity(i);
             }
         });
@@ -38,7 +38,7 @@ public class Who_are_you extends AppCompatActivity {
         usercard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(Who_are_you.this,LoginActivity.class);
+                Intent i = new Intent(Who_are_you.this,CreateAccount.class);
                 startActivity(i);
             }
         });
